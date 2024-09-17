@@ -1,18 +1,18 @@
-// document
-//     .getElementById("registrationForm")
-//     .addEventListener("submit", function (event) {event.preventDefault();
+document
+    .getElementById("registrationForm")
+    .addEventListener("submit", function (event) {event.preventDefault();
 
-//         let username = document.getElementById("username").value;
-//         let email = document.getElementById("email").value;
-//         let password = document.getElementById("password").value;
-//         let message = document.getElementById("message");
-//         message.textContent = `Inscription réussie pour ${username} avec l'adresse ${email} !`;
+        let username = document.getElementById("username").value;
+        let email = document.getElementById("email").value;
+        let password = document.getElementById("password").value;
+        let message = document.getElementById("message");
+        message.textContent = `Inscription réussie pour ${username} avec l'adresse ${email} !`;
         
-//         clearForm();
-//     });
+        clearForm();
+    });
 
-//     function clearForm() {
-//     document.getElementById("username").value = "";
-//     document.getElementById("email").value = "";
-//     document.getElementById("password").value = "";
-// }
+    function clearForm() {
+    document.getElementById("username").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("password").value = "";
+}
