@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Inscription WoW Server</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h1>Inscription WoW Server</h1>
+            <form id="registrationForm">
+                <label for="username">Nom d'utilisateur :</label><br />
+                <input
+                    type="text"
+                    id="username"
+                    name="username"
+                    required
+                /><br /><br />
+
+                <label for="email">Adresse email :</label><br />
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                /><br /><br />
+
+                <label for="password">Mot de passe :</label><br />
+                <input
+                    type="password"
+                    id="password"
+                    name="password"
+                    required
+                /><br /><br />
+
+                <button type="submit">S'inscrire</button>
+            </form>
+
+            <div id="message">N'oubliez pas de vous inscrire a la guilde.</div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
