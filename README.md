@@ -1,1 +1,1 @@
-read carfully !
+read carefully !
